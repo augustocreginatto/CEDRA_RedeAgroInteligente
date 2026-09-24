@@ -1,0 +1,15 @@
+{
+  "source": "FAO-56, Chapter 8, Example 36",
+  "url": "https://www.fao.org/4/x0490e/x0490e0e.htm",
+  "cases": [
+    {"crop": "onion", "soil": "loamy_sand", "zr_m": 0.4, "p": 0.30, "theta_fc": 0.15, "theta_wp": 0.06, "taw_mm": 36, "raw_mm": 11},
+    {"crop": "onion", "soil": "silt", "zr_m": 0.4, "p": 0.30, "theta_fc": 0.32, "theta_wp": 0.15, "taw_mm": 68, "raw_mm": 20},
+    {"crop": "onion", "soil": "silty_clay", "zr_m": 0.4, "p": 0.30, "theta_fc": 0.35, "theta_wp": 0.23, "taw_mm": 48, "raw_mm": 14},
+    {"crop": "tomato", "soil": "loamy_sand", "zr_m": 0.8, "p": 0.40, "theta_fc": 0.15, "theta_wp": 0.06, "taw_mm": 72, "raw_mm": 29},
+    {"crop": "tomato", "soil": "silt", "zr_m": 0.8, "p": 0.40, "theta_fc": 0.32, "theta_wp": 0.15, "taw_mm": 136, "raw_mm": 54},
+    {"crop": "tomato", "soil": "silty_clay", "zr_m": 0.8, "p": 0.40, "theta_fc": 0.35, "theta_wp": 0.23, "taw_mm": 96, "raw_mm": 38},
+    {"crop": "maize", "soil": "loamy_sand", "zr_m": 1.2, "p": 0.55, "theta_fc": 0.15, "theta_wp": 0.06, "taw_mm": 108, "raw_mm": 59},
+    {"crop": "maize", "soil": "silt", "zr_m": 1.2, "p": 0.55, "theta_fc": 0.32, "theta_wp": 0.15, "taw_mm": 204, "raw_mm": 112},
+    {"crop": "maize", "soil": "silty_clay", "zr_m": 1.2, "p": 0.55, "theta_fc": 0.35, "theta_wp": 0.23, "taw_mm": 144, "raw_mm": 79}
+  ]
+}
