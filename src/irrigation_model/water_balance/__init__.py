@@ -1,21 +1,27 @@
-"""Water-balance models and validation-oriented reference implementations."""
+"""Shared water-deficit core and methodology-specific parameterizations."""
 
-from .fao56 import (
-    RootZoneStep,
-    adjusted_crop_evapotranspiration_mm,
+from .core import (
+    WaterBalanceStep,
+    actual_crop_evapotranspiration_mm,
+    available_water_capacity_mm,
     crop_evapotranspiration_mm,
-    readily_available_water_mm,
-    root_zone_balance_step,
-    total_available_water_mm,
+    management_capacity_mm,
+    water_balance_step,
     water_stress_coefficient,
+)
+from .parameterizations import (
+    fao56_adjusted_depletion_fraction,
+    sbmi_depletion_fraction_f,
 )
 
 __all__ = [
-    "RootZoneStep",
-    "adjusted_crop_evapotranspiration_mm",
+    "WaterBalanceStep",
+    "actual_crop_evapotranspiration_mm",
+    "available_water_capacity_mm",
     "crop_evapotranspiration_mm",
-    "readily_available_water_mm",
-    "root_zone_balance_step",
-    "total_available_water_mm",
+    "management_capacity_mm",
+    "water_balance_step",
     "water_stress_coefficient",
+    "fao56_adjusted_depletion_fraction",
+    "sbmi_depletion_fraction_f",
 ]
