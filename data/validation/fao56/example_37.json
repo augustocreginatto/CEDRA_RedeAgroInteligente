@@ -1,0 +1,30 @@
+{
+  "source": "FAO-56, Chapter 8, Example 37",
+  "url": "https://www.fao.org/4/x0490e/x0490e0e.htm",
+  "inputs": {
+    "theta_fc": 0.32,
+    "theta_wp": 0.12,
+    "zr_m": 0.8,
+    "p": 0.40,
+    "initial_depletion_mm": 55.0,
+    "eto_mm_day": 5.0,
+    "kc": 1.2,
+    "days": 10
+  },
+  "expected": {
+    "taw_mm": 160.0,
+    "raw_mm": 64.0,
+    "table": [
+      {"day": 1, "dr_start_mm": 55.0, "ks": 1.00, "etc_adj_mm": 6.0, "dr_end_mm": 61.0},
+      {"day": 2, "dr_start_mm": 61.0, "ks": 1.00, "etc_adj_mm": 6.0, "dr_end_mm": 67.0},
+      {"day": 3, "dr_start_mm": 67.0, "ks": 0.97, "etc_adj_mm": 5.8, "dr_end_mm": 72.8},
+      {"day": 4, "dr_start_mm": 72.8, "ks": 0.91, "etc_adj_mm": 5.4, "dr_end_mm": 78.3},
+      {"day": 5, "dr_start_mm": 78.3, "ks": 0.85, "etc_adj_mm": 5.1, "dr_end_mm": 83.4},
+      {"day": 6, "dr_start_mm": 83.4, "ks": 0.80, "etc_adj_mm": 4.8, "dr_end_mm": 88.2},
+      {"day": 7, "dr_start_mm": 88.2, "ks": 0.75, "etc_adj_mm": 4.5, "dr_end_mm": 92.6},
+      {"day": 8, "dr_start_mm": 92.6, "ks": 0.70, "etc_adj_mm": 4.2, "dr_end_mm": 96.9},
+      {"day": 9, "dr_start_mm": 96.9, "ks": 0.66, "etc_adj_mm": 3.9, "dr_end_mm": 100.8},
+      {"day": 10, "dr_start_mm": 100.8, "ks": 0.62, "etc_adj_mm": 3.7, "dr_end_mm": 104.5}
+    ]
+  }
+}
